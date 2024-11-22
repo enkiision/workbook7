@@ -1,0 +1,2 @@
+GET https://jsonplaceholder.typicode.com/users
+# don't forget to add  the GET before this URL

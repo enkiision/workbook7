@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../../enjoy-the-outdoors"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "workbook7",
+    "cSpell.words": ["bcuz"]
+  }
+}
