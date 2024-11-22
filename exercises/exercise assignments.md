@@ -4,7 +4,7 @@ Use the SpongeBob table example or your capstone. |complete|
 
 Page 50- Exercise 2 Load User table || this was complete, somehow didnt save properly and now has to be redone 11/22. I also thought I committed my work that day but it only committed one of my vsc windows I shouldve done a better job checking this|| _|complete|_
 
-Page 50- Exercise 1 Load TODO Detail |complete|
+Page 50- Exercise 1 Load TODO Detail |not complete using json string, feels faminiler very frustrated 11/22|
 
 Page 50- Exercise 3 (optional) call another public API and
 display data in a table

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Mini Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <main>
+<!-- need a dropdown list containing cities for weather info -->
+<section class="container mt-4">
+    <h2>Weather Page</h2>
+    <div class="d-flex my-4" class="container">
+      <form action="table" class="mb-2">
+        <label class="form-label" for="weatherDropdown">Wather By City</label>
+        <select class="form-select" id="weatherDropdown" onchange="filterByWeather()">
+          <option value="">Select City...</option>
+        </select>
+        <!-- <button type="button" id="detailsButton" onclick="showNationalParkDetails">Show Details</button> -->
+      </form>
+    </div> 
+</section>
+<table id="temperaturesTable" class="table table-light table-bordered">
+  <thead>
+    <tr>
+      <th>City</th>
+      <th>Coordinates</th>
+      <th>Direction</th>
+    </tr>
+  </thead>
+  <tbody id="weatherTbody">
+  </tbody>
+</table>
+    </main>
+    <script src="weather.js" ></script>
+</body>
+</html>
