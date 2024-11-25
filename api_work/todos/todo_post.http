@@ -1,0 +1,14 @@
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+  {
+    "userId": 1,
+    "title": "another one (DJ KAHLED!)",
+    "completed": true
+  }
+
+# no IDs in Post
+# paste body info
+# Check to make sure theres no ending commas
+#  Make sure theers an empty space/line between "enevlope"  and body so the system knows how to differentuate
+
